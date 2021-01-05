@@ -2,7 +2,7 @@
 # If string does not match a planet, raise ValueError
 def weight_on_planets(pounds: float, planet: str) -> float:
    # write your code here
-   return 0.0
+   return 1.0
 
 if __name__ == '__main__':    # pragma: no cover
    pounds = float(input("What do you weigh on earth? "))
