@@ -1,4 +1,4 @@
-# Given earth weight  and planet, returns weight on provided planet
+# Given earth weight and planet, returns weight on provided planet
 # If string does not match a planet, raise ValueError
 def weight_on_planets(pounds: float, planet: str) -> float:
     """calculates weight on a different planet
