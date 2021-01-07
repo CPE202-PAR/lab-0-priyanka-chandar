@@ -32,9 +32,6 @@ def main() -> None:    # pragma: no cover
           "On Jupiter you would weigh", weight_on_planets(pounds, 'Jupiter'), "pounds.\n" +
           "On Venus you would weigh", weight_on_planets(pounds, 'Venus'), "pounds.")
 
-    #except ValueError:
-       #print("Error: Check inputted weight and planet.")
-
 
 if __name__ == '__main__':    # pragma: no cover
     main()
