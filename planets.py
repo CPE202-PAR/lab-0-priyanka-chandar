@@ -24,7 +24,7 @@ def weight_on_planets(pounds: float, planet: str) -> float:
     new_weight = pounds * conversion_rate
     return new_weight
 
-def main():    # pragma: no cover
+def main() -> None:    # pragma: no cover
     pounds = float(input("What do you weigh on earth? "))
     #planet = str(input("Would you like to calculate weight on Mars or Jupiter? "))
     #weight_on_planets(pounds, planet)
@@ -34,7 +34,6 @@ def main():    # pragma: no cover
 
     #except ValueError:
        #print("Error: Check inputted weight and planet.")
-       #sys.exit()
 
 
 if __name__ == '__main__':    # pragma: no cover
